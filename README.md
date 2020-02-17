@@ -7,7 +7,18 @@ To run, compile using javac *.java and then java sak to run main program.
 once compiled using:
 javac *.java,
 
-feel free to use any of the following commands:
+Utilities included
+
+-Help (Help.java) : This will display a menu and intro to the app as well as providing C+P examples
+
+-HttpRequest(HttpRequest.java) : This is Eric Pogue's Library that opens a URL and reads the data, storing it to a varaible
+
+-HttpRequestIndex(HttpRequestIndex.java) : This inherits HttpRequest and will open a file.  If the file includes other URLs, this class will parse it and store the additional URLs to a variable in which it will iterate through that variable list to open all the subsequent URLs.
+
+-sak(sak.java) : defaults to -Help but takes in parameters in Terminal to run any of the above utilites.  
+
+
+feel free to use any of the following commands to run any of the mentioned utilities:
   
   java sak
   

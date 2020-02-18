@@ -24,7 +24,7 @@ class HttpRequestIndex extends HttpRequest {
 
         if (returnValue == true) {
             for (String content : urlContent) {
-//              Splits into lines using " delimiter
+//              Splits lines into separets strings using endline delimiter
                 String[] splitLines = content.split("\"");
 //              Parsing....Finds Index of crossCheck String variable             
                 for (int i = 0; i < splitLines.length; i ++) {
